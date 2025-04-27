@@ -15,4 +15,4 @@ Core value:
 Core value:
 5.搭建EMQX服务器和远程数据库，配置环境是非常麻烦且复杂的一件事，需要耐心
 
-6.TensorFlow 深度学习框架：最开始用的CPU训练，非常非常慢；windows不支持最新tensorflow，[GPU](https://so.csdn.net/so/search?q=GPU&spm=1001.2101.3001.7020) 支持仅适用于 2.10 或更早版本，从 TF 2.11 开始，Windows 不支持 CUDA 构建。
+6.TensorFlow 深度学习框架：最开始用的CPU训练，非常非常慢；windows不支持最新tensorflow，[GPU](https://so.csdn.net/so/search?q=GPU&spm=1001.2101.3001.7020) 支持仅适用于 2.10 或更早版本，从 TF 2.11 开始，Windows 不支持 CUDA 构建。建议重新配置一个conda环境，否则降级python会出现很多新的其他组件不匹配问题）下载相应的cuda和cudnn 我的是cuda11.8 cudnn8.6够用
